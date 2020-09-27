@@ -1,0 +1,279 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+header {
+  top: 0;
+  left: -0.25rem;
+  width: 100%;
+  height: 27.6875rem;
+  background: transparent url('../img/index/0.jpg') 0 0 no-repeat padding-box;
+  background-size: cover;
+  background-position: center;
+  mix-blend-mode: multiply;
+  opacity: 0.83;
+}
+
+.cover {
+  margin: 0;
+  background: transparent url("../img/index/Rectangle 20.png") 0 0 no-repeat padding-box;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 27.6875rem;
+}
+
+.logo-container {
+  padding-top: 1rem;
+  margin-left: 6%;
+  width: 6.25rem;
+  height: 6.25rem;
+}
+
+.heading-container {
+  text-align: center;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 5%;
+  height: 9.3125rem;
+}
+
+.heading-container h1 {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 1rem;
+}
+
+.heading-container h4 {
+  color: #fff;
+  font-size: 15px;
+  font-weight: normal;
+  margin-bottom: 2rem;
+}
+
+main {
+  padding: 3rem 2rem;
+}
+
+/* section-1 */
+.section-1 {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.section-1 input {
+  width: 65%;
+  height: 3rem;
+  margin-top: 0.5rem;
+}
+
+.section-1 .name {
+  width: 50%;
+}
+
+.section-1 .email {
+  width: 50%;
+}
+
+@media screen and (max-width: 992px) {
+  .section-1 {
+    display: block;
+  }
+
+  .section-1 .name {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .section-1 .email {
+    width: 100%;
+  }
+}
+
+/* section-2 */
+.section-2 {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.section-2 input {
+  width: 65%;
+  height: 3rem;
+  margin-top: 0.5rem;
+}
+
+.section-2 .company {
+  width: 50%;
+}
+
+.section-2 .website {
+  width: 50%;
+}
+
+@media screen and (max-width: 992px) {
+  .section-2 {
+    display: block;
+  }
+
+  .section-2 .company {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .section-2 .website {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* section-3 */
+.section-3 {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+
+.section-3 textarea {
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+/* section-4 */
+.section-4 {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.section-4 label {
+  margin-right: 1rem;
+}
+
+/* section-5 */
+.section-5 {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+
+.section-5 textarea {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+/* section-6 */
+.section-6 {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+
+.section-6 label {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.custom-file-input {
+  color: transparent;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.custom-file-input::before {
+  content: 'Attach Files';
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  display: inline-block;
+  background: var(--unnamed-color-000000) 0 0 no-repeat padding-box;
+  background: #000000 0 0 no-repeat padding-box;
+  opacity: 1;
+  padding: 0.75rem 1.5rem;
+  -webkit-user-select: none;
+  cursor: pointer;
+}
+
+.custom-file-input:hover::before {
+  border-color: #ffffff00;
+}
+
+.custom-file-input:active {
+  outline: 0;
+  border-color: #ffffff00;
+}
+
+/* section-7 */
+.section-7 {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+
+.section-7 textarea {
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+/* section-8 */
+.section-8 {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+
+/* section-9 */
+.section-9 {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+
+.section-9 input {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+  background-color: #E07670;
+  cursor: pointer;
+}
+
+.container input:checked~.checkmark {
+  background-color: #E07670;
+}
+
+/* end-button */
+.end-button {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.end-button button {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  width: 10.625rem;
+  height: 3.5625rem;
+  background: var(--unnamed-color-000000) 0 0 no-repeat padding-box;
+  background: #000000 0 0 no-repeat padding-box;
+  border: None;
+  cursor: pointer;
+  opacity: 1;
+}
